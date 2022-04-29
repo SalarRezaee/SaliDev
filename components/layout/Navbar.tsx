@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import { Button } from "./";
+import { Button } from "../elements";
 import { BiMenu } from "react-icons/bi";
 import { NavMenus, ResponsiveNav } from "./";
 
@@ -10,6 +10,7 @@ const Navbar = () => {
   const changeShow = () => {
     console.log('click')
     setShow(false);
+
   };
 
   return (
@@ -18,6 +19,7 @@ const Navbar = () => {
         <div className="mr-3 flex">
           <div>
             <Image src="/logo.svg" width={96} height={25} />
+            
           </div>
           <div className="lg:block hidden">
             <NavMenus mode="regular" />
