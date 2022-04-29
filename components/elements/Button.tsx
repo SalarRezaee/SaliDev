@@ -3,8 +3,8 @@ import Link from "next/link";
 interface ButtonProps {
   url: string;
   title: string;
-  fill: string;
-  size: string;
+  fill?: string;
+  size?: string;
 }
 const Button = (props: ButtonProps) => {
   return (
