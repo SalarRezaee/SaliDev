@@ -8,8 +8,8 @@ const NavMenus = (props: NavProps) => {
   return (
     <ul
       className={`mr-10 p-0 mt-2 flex ${
-        props.mode === "responsive" ? "flex-col mr-0 space-y-10" : "flex-row"
-      } items-center text-sm whitespace-nowrap `}
+        props.mode === "responsive" ? "flex-col ml-10 space-y-10" : "flex-row"
+      } items-center text-sm whitespace-nowrap mx-auto w-full `}
     >
       <li>
         <Link href="/">

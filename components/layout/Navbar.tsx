@@ -33,7 +33,7 @@ const Navbar = () => {
               onClick={() => setShow(true)}
             />
           </div>
-          <Button title="همکاری با من" url="contact-me" />
+          <Button title="همکاری با من" url="/contact-me" />
           {show ? <ResponsiveNav changeShow={changeShow} /> : ""}
         </div>
       </div>

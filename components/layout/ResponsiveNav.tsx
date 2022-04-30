@@ -7,13 +7,16 @@ interface ResponsiveNavbarProps {
 
 const ResponsiveNav = (props: ResponsiveNavbarProps) => {
   return (
-    <div className="fixed top-0 right-0 w-screen h-screen bg-black bg-opacity-80 ">
+    <div className="z-30 fixed top-0 right-0 w-screen h-screen bg-black bg-opacity-80 ">
       <FaRegTimesCircle
         onClick={() => props.changeShow()}
         className="absolute left-10 top-16 cursor-pointer"
         fontSize={30}
       />
-      <div className="w-full h-full flex items-center justify-center">
+      <div
+        className="w-full h-full flex mx-auto items-center justify-center"
+        style={{ margin: "0 auto" }}
+      >
         <NavMenus mode="responsive" />
       </div>
     </div>
