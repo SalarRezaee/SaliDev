@@ -3,4 +3,5 @@ export { default as NavMenus } from "./NavMenus";
 export { default as ResponsiveNav } from "./ResponsiveNav";
 export { default as Banner } from "./Banner";
 export { default as Services } from "./Services";
+export { default as AboutMain } from "./AboutMain";
 

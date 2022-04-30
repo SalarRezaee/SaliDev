@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 // components
-import { Navbar, Banner , Services } from "../components/layout";
+import { Navbar, Banner, Services , AboutMain } from "../components/layout";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +15,7 @@ const Home: NextPage = () => {
         <Navbar />
         <Banner />
         <Services />
+        <AboutMain />
       </div>
     </div>
   );
