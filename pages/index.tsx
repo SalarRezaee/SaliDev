@@ -2,7 +2,15 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 // components
-import { Navbar, Banner, Services , AboutMain } from "../components/layout";
+import {
+  Navbar,
+  Banner,
+  Services,
+  AboutMain,
+  PortfolioMain,
+  ContactMeMain,
+  Footer,
+} from "../components/layout";
 
 const Home: NextPage = () => {
   return (
@@ -13,10 +21,13 @@ const Home: NextPage = () => {
       </Head>
       <div className="container mx-auto">
         <Navbar />
-        <Banner />
+        <Banner />.
         <Services />
         <AboutMain />
+        <PortfolioMain />
+        <ContactMeMain />
       </div>
+      <Footer />
     </div>
   );
 };

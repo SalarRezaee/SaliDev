@@ -4,4 +4,6 @@ export { default as ResponsiveNav } from "./ResponsiveNav";
 export { default as Banner } from "./Banner";
 export { default as Services } from "./Services";
 export { default as AboutMain } from "./AboutMain";
-
+export { default as PortfolioMain } from "./PortfolioMain";
+export { default as ContactMeMain } from "./ContactMeMain";
+export { default as Footer } from "./Footer";
