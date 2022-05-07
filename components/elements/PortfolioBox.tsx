@@ -11,7 +11,7 @@ interface Props {
 const PortfolioBox = (props: Props) => {
   return (
     <Link href={props.url}>
-      <a target="_blank" className="cursor-pointer">
+      <a target="_blank" className="cursor-pointer" rel="noreferrer">
         <div className="flex flex-col">
           <Image
             src={props.image}

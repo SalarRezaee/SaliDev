@@ -15,22 +15,34 @@ const Footer = () => {
           <div>
             <ul className="flex text-sm my-3">
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="https://github.com/salarrezaee" target="_blank">
+                <a
+                  href="https://github.com/salarrezaee"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <SiGithub />
                 </a>
               </li>
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="https://t.me/salipad" target="_blank">
+                <a href="https://t.me/salipad" target="_blank" rel="noreferrer">
                   <SiTelegram />
                 </a>
               </li>
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="https://www.linkedin.com/in/salarrezaee" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/salarrezaee"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <SiLinkedin />
                 </a>
               </li>
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="https://www.instagram.com/salidev.ir" target="_blank">
+                <a
+                  href="https://www.instagram.com/salidev.ir"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <SiInstagram />
                 </a>
               </li>
