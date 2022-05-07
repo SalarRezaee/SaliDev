@@ -14,7 +14,7 @@ const ResponsiveNav = (props: ResponsiveNavbarProps) => {
         fontSize={30}
       />
       <div
-        className="w-full h-full flex mx-auto items-center justify-center"
+        className="w-screen h-screen flex mx-auto items-center justify-center"
         style={{ margin: "0 auto" }}
       >
         <NavMenus mode="responsive" />

@@ -1,31 +1,6 @@
 import { Button } from "../elements";
 import PortfolioBox from "../elements/PortfolioBox";
-const fakeData = [
-  {
-    id: 1,
-    title: "formik",
-    image: "/images/portfolio.png",
-    url: "/",
-    description:
-      "احتمالا این اتفاق برایتان افتاده است که در حساب و کتاب‌هایی که داشته اید، اشتباهی انجام دهید و همه چیز به هم بریزد. برای مشکل شما محصولی طراحی و ارائه کردیم که می‌تواند تمام ...حساب هایتان را",
-  },
-  {
-    id: 2,
-    title: "formik",
-    image: "/images/portfolio.png",
-    url: "/",
-    description:
-      "احتمالا این اتفاق برایتان افتاده است که در حساب و کتاب‌هایی که داشته اید، اشتباهی انجام دهید و همه چیز به هم بریزد. برای مشکل شما محصولی طراحی و ارائه کردیم که می‌تواند تمام ...حساب هایتان را",
-  },
-  {
-    id: 3,
-    title: "formik",
-    image: "/images/portfolio.png",
-    url: "/",
-    description:
-      "احتمالا این اتفاق برایتان افتاده است که در حساب و کتاب‌هایی که داشته اید، اشتباهی انجام دهید و همه چیز به هم بریزد. برای مشکل شما محصولی طراحی و ارائه کردیم که می‌تواند تمام ...حساب هایتان را",
-  },
-];
+import { fakeData } from "../../lib/data";
 
 const PortfolioMain = () => {
   return (

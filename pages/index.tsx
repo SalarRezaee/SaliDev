@@ -3,13 +3,10 @@ import Head from "next/head";
 
 // components
 import {
-  Navbar,
   Banner,
   Services,
   AboutMain,
   PortfolioMain,
-  ContactMeMain,
-  Footer,
 } from "../components/layout";
 
 const Home: NextPage = () => {
@@ -20,14 +17,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container mx-auto">
-        <Navbar />
-        <Banner />.
+        <Banner />
         <Services />
         <AboutMain />
         <PortfolioMain />
-        <ContactMeMain />
       </div>
-      <Footer />
     </div>
   );
 };

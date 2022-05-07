@@ -3,7 +3,7 @@ import React from "react";
 interface serviceProps {
   icon: React.ReactNode;
   title: string;
-  description: string;
+  description?: string;
   position?: string;
 }
 
@@ -18,9 +18,11 @@ const ServiceBox = (props: serviceProps) => {
         {props.icon}
       </div>
       <h3 className="text-center text-sm mt-4 mb-6">{props.title}</h3>
-      <p className="text-xs leading-7 mb-4 px-3 text-gray-300 text-justify">
-        {props.description}
-      </p>
+      {props.description && (
+        <p className="text-xs leading-7 mb-4 px-3 text-gray-300 text-justify">
+          {props.description}
+        </p>
+      )}
     </div>
   );
 };

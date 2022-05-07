@@ -8,7 +8,6 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
 
   const changeShow = () => {
-    console.log('click')
     setShow(false);
 
   };

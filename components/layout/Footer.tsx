@@ -9,26 +9,28 @@ const Footer = () => {
           <div className="my-4">
             <Image src="/logo.svg" width={96} height={25} />
           </div>
-          <p className="text-sm  lg:mr-12 text-center my-2">© 2021 All Rights Reserved</p>
+          <p className="text-sm  lg:mr-12 text-center my-2">
+            © 2021 All Rights Reserved
+          </p>
           <div>
             <ul className="flex text-sm my-3">
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="#">
+                <a href="https://github.com/salarrezaee" target="_blank">
                   <SiGithub />
                 </a>
               </li>
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="#">
+                <a href="https://t.me/salipad" target="_blank">
                   <SiTelegram />
                 </a>
               </li>
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/salarrezaee" target="_blank">
                   <SiLinkedin />
                 </a>
               </li>
               <li className="w-10 h-10 mx-2 flex items-center justify-center rounded-md text-lg bg-[#23232A]">
-                <a href="#">
+                <a href="https://www.instagram.com/salidev.ir" target="_blank">
                   <SiInstagram />
                 </a>
               </li>
