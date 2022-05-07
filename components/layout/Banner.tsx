@@ -19,8 +19,8 @@ const Banner = () => {
             آماده‌ام
           </p>
           <div className="w-full flex items-center mb-3 mt-8">
-            <Button title="ارتباط با من" url="#" fill="regular" size="full" />
-            <Button title="دانلود رزومه" url="#" fill="none" size="full" />
+            <Button title="ارتباط با من" url="/contact-me" fill="regular" size="full" />
+            <Button title="دانلود رزومه" url="/SalarRezaee-Resume.pdf" fill="none" size="full" />
           </div>
         </div>
         <div className="lg:text-left text-center my-4">
